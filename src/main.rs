@@ -23,7 +23,6 @@ struct Weather {
 }
 
 fn main() {
-    
     let city = "Minneapolis"; // Todo: use std::env to get this from command line arguments.
     match fetch_weather(city) {
         Ok(weather_info) => {
